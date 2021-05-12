@@ -6,12 +6,15 @@
    	<style type="text/css">
    		* {padding: 0;}
    		div {
-   			margin: 0;
-    background: url(p/zz.png);
-    color: #fff;
-    font-size: 110px;
+   			background: url(nc/zz.png);
+    color: black;
+    padding: 73px;
+    font-size: 60px;
     background-size: cover;
-    height: 320px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 90%;
+    height: 350px;
    }
    	.container {
    			width: 400px; background-color: rgb(160,100,160);    
@@ -25,31 +28,30 @@
    </head>
    <body style="background: black">
    		<div background="nc/zz.png"  align="center" width="250" height="150">
-   		Сверхъестественное
+   		<h1>Сверхъестественное</h1>
    	</div>
    	<table border="5px" class="table">
    		<thead>
    			<tr>
                     <th><p> <ul>
             <li>
-                <a href="../index.html">Home</a>
+                <a href="index.html">Главная страница</a>
             </li>
         </ul></p></th>
                     <th><p> <ul>
             <li>
-                <a href="../News.html">News</a>
+                <a href="News.html">Новости</a>
             </li>
         </ul></p></th>
                     <th><p> <ul>
             <li>
-                <a href="../Contact.html">Contact</a>
+                <a href="Contact.html">Контактная информация</a>
             </li>
         </ul></p></th>
                 </tr>
    		</thead>
    	</table>
-   	<p style="border: 10px solid rgb(160,100,160); padding: 10px; 
-       		margin: 25px; color: #fff"> Для того чтобы мы связались с вами и выслали вам все серии в прекрасной озвучке и хорошем качестве заполните,пожалуйста, данную форму. На данный момент сайт ещё только в небольшой разработке, но мы стараемся для вас!</p>
+   	<h2 style="color: #fff; text-align: center;font-size: 250%;">Контактная информация</h2>
    	<main class="container">
      	<form method="GET" id="search">
    	<p>
@@ -69,7 +71,7 @@
    	<input type="date" name="date" id="date">
    	</p>
    	<p>
-   	<label for="course">Сколько сезонов Вы хотели бы посмотреть</label>
+   	<label for="course">Сколько сезонов Вы посмотрели</label>
    		<select>
      	<option>1</option>
      	<option>2</option>
@@ -91,6 +93,7 @@
    		<label> Ваш любимый персонаж</label>
    		<input type="text" name="name">
    	</p>
+   	<label for="about" class="ser">Что Вам понравилось в сериале</label> <textarea rows="5" cols="50" placeholder="Что понравилось" id="about"></textarea>
      <button type="submil">Отправить</button>
  </form>
 </main>
